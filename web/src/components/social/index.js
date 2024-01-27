@@ -2,7 +2,7 @@ import Image from 'next/image'
 export default () => {
   return (
     <div className="flex h-[15px] leading-[15px]">
-      <button className="share flex cursor-pointer">
+      <button className="share flex cursor-pointer" title='编组'>
         <Image
           src="/share.svg"
           alt="share"
@@ -13,7 +13,7 @@ export default () => {
         />
         <div>0</div>
       </button>
-      <button className="comment flex cursor-pointer">
+      <button className="comment flex cursor-pointer" title='评论'>
         <Image
           src="/comment.svg"
           alt="comment"
@@ -24,7 +24,7 @@ export default () => {
         />
         <span>0</span>
       </button>
-      <button className="like flex cursor-pointer">
+      <button className="like flex cursor-pointer" title='赞'>
         <Image
           src="/like.svg"
           alt="like"

@@ -6,7 +6,7 @@ export default () => {
       <Image
         src="/d-avatar.png"
         alt="avatar"
-        className="p-[15px] mx-auto"
+        className="py-[15px] mx-auto"
         width={207}
         height={207}
         priority
